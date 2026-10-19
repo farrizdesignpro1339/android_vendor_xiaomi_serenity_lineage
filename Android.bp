@@ -1,0 +1,118 @@
+//
+// SPDX-FileCopyrightText: The Redmi A5 (serenity) Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {}
+
+install_symlink {
+    name: "symlink_odm_lib_libsprddrepro_so_libsprddrepro",
+    soc_specific: true,
+    installed_location: "odm/lib",
+    symlink_target: "/odm/lib/libsample.so",
+}
+
+install_symlink {
+    name: "symlink_odm_lib64_libsprddrepro_so_libsprddrepro",
+    soc_specific: true,
+    installed_location: "odm/lib64",
+    symlink_target: "/odm/lib64/libsample.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_hw_vulkan_ums9230_so_vulkan.ums9230",
+    soc_specific: true,
+    installed_location: "vendor/lib/hw",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libISC_ap_so_libISC_ap",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libunisocisc.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libOpenCL_so_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libOpenCL_so_1_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libOpenCL_so_1_1_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libOpenCL_so_1_2_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib_libRtp_ap_so_libRtp_ap",
+    soc_specific: true,
+    installed_location: "vendor/lib",
+    symlink_target: "/vendor/lib/libunisocrtp.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_hw_libfingerprint_default_so_libfingerprint.default",
+    soc_specific: true,
+    installed_location: "vendor/lib64/hw",
+    symlink_target: "/vendor/lib64/hw/fingerprint.goodix.default.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_hw_vulkan_ums9230_so_vulkan.ums9230",
+    soc_specific: true,
+    installed_location: "vendor/lib64/hw",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_libOpenCL_so_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib64",
+    symlink_target: "/vendor/lib64/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_libOpenCL_so_1_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib64",
+    symlink_target: "/vendor/lib64/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_libOpenCL_so_1_1_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib64",
+    symlink_target: "/vendor/lib64/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_lib64_libOpenCL_so_1_2_libOpenCL",
+    soc_specific: true,
+    installed_location: "vendor/lib64",
+    symlink_target: "/vendor/lib64/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "symlink_vendor_odm_odm",
+    soc_specific: true,
+    installed_location: "vendor",
+    symlink_target: "/odm",
+}
