@@ -831,7 +831,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/bin/test_ufs_swp_config:vendor/bin/test_ufs_swp_config \
     proprietary/vendor/bin/thermald:vendor/bin/thermald \
     proprietary/vendor/bin/toolbox:vendor/bin/toolbox \
-    proprietary/vendor/bin/toybox_vendor:vendor/bin/toybox_vendor \
     proprietary/vendor/bin/trafficshow.sh:vendor/bin/trafficshow.sh \
     proprietary/vendor/bin/tsupplicant:vendor/bin/tsupplicant \
     proprietary/vendor/bin/tuica:vendor/bin/tuica \
