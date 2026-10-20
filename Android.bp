@@ -5,7 +5,7 @@
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "ai_engine-default",
+    name: "vintf_ai_engine-default",
     src: "proprietary/vendor/etc/vintf/manifest/ai_engine-default.xml",
     sub_dir: "vintf/manifest",
     filename: "ai_engine-default.xml",
@@ -14,7 +14,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.biometrics.face-v2",
+    name: "vintf_android.hardware.biometrics.face-v2",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.face-v2.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.biometrics.face-v2.xml",
@@ -23,7 +23,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.cas@1.2-service-lazy",
+    name: "vintf_android.hardware.cas@1.2-service-lazy",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.cas@1.2-service-lazy.xml",
@@ -32,7 +32,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.drm-service.clearkey",
+    name: "vintf_android.hardware.drm-service.clearkey",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.drm-service.clearkey.xml",
@@ -41,7 +41,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.gatekeeper@1.0-service.trusty",
+    name: "vintf_android.hardware.gatekeeper@1.0-service.trusty",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.gatekeeper@1.0-service.trusty.xml",
@@ -50,7 +50,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.health-service.example",
+    name: "vintf_android.hardware.health-service.example",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.health-service.example.xml",
@@ -59,7 +59,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.security.keymint@2.0-unisoc.service.trusty",
+    name: "vintf_android.hardware.security.keymint@2.0-unisoc.service.trusty",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.security.keymint@2.0-unisoc.service.trusty.xml",
@@ -68,7 +68,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.sensors-multihal",
+    name: "vintf_android.hardware.sensors-multihal",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.sensors-multihal.xml",
@@ -77,7 +77,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.usb-service.unisoc",
+    name: "vintf_android.hardware.usb-service.unisoc",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.unisoc.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.usb-service.unisoc.xml",
@@ -86,7 +86,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.wifi.hostapd",
+    name: "vintf_android.hardware.wifi.hostapd",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.wifi.hostapd.xml",
@@ -95,7 +95,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.wifi.supplicant",
+    name: "vintf_android.hardware.wifi.supplicant",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.wifi.supplicant.xml",
@@ -104,7 +104,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "android.hardware.wifi@1.0-service",
+    name: "vintf_android.hardware.wifi@1.0-service",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
     sub_dir: "vintf/manifest",
     filename: "android.hardware.wifi@1.0-service.xml",
@@ -113,7 +113,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "bluetooth_audio",
+    name: "vintf_bluetooth_audio",
     src: "proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml",
     sub_dir: "vintf/manifest",
     filename: "bluetooth_audio.xml",
@@ -122,7 +122,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "combinedservice",
+    name: "vintf_combinedservice",
     src: "proprietary/vendor/etc/vintf/manifest/combinedservice.xml",
     sub_dir: "vintf/manifest",
     filename: "combinedservice.xml",
@@ -131,7 +131,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "cplog_svc-default",
+    name: "vintf_cplog_svc-default",
     src: "proprietary/vendor/etc/vintf/manifest/cplog_svc-default.xml",
     sub_dir: "vintf/manifest",
     filename: "cplog_svc-default.xml",
@@ -140,7 +140,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "enhance-default",
+    name: "vintf_enhance-default",
     src: "proprietary/vendor/etc/vintf/manifest/enhance-default.xml",
     sub_dir: "vintf/manifest",
     filename: "enhance-default.xml",
@@ -149,7 +149,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "fingerprint-default",
+    name: "vintf_fingerprint-default",
     src: "proprietary/vendor/etc/vintf/manifest/fingerprint-default.xml",
     sub_dir: "vintf/manifest",
     filename: "fingerprint-default.xml",
@@ -158,7 +158,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "hdcp-default",
+    name: "vintf_hdcp-default",
     src: "proprietary/vendor/etc/vintf/manifest/hdcp-default.xml",
     sub_dir: "vintf/manifest",
     filename: "hdcp-default.xml",
@@ -167,7 +167,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "identity-default",
+    name: "vintf_identity-default",
     src: "proprietary/vendor/etc/vintf/manifest/identity-default.xml",
     sub_dir: "vintf/manifest",
     filename: "identity-default.xml",
@@ -176,7 +176,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "ifaa-default",
+    name: "vintf_ifaa-default",
     src: "proprietary/vendor/etc/vintf/manifest/ifaa-default.xml",
     sub_dir: "vintf/manifest",
     filename: "ifaa-default.xml",
@@ -185,7 +185,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "manifest_android.hardware.drm-service.widevine",
+    name: "vintf_manifest_android.hardware.drm-service.widevine",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
     sub_dir: "vintf/manifest",
     filename: "manifest_android.hardware.drm-service.widevine.xml",
@@ -194,7 +194,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "manifest_dualsim",
+    name: "vintf_manifest_dualsim",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_dualsim.xml",
     sub_dir: "vintf/manifest",
     filename: "manifest_dualsim.xml",
@@ -203,7 +203,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "manifest_face_default",
+    name: "vintf_manifest_face_default",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_face_default.xml",
     sub_dir: "vintf/manifest",
     filename: "manifest_face_default.xml",
@@ -212,7 +212,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "manifest_media_c2_V1_1_unisoc",
+    name: "vintf_manifest_media_c2_V1_1_unisoc",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml",
     sub_dir: "vintf/manifest",
     filename: "manifest_media_c2_V1_1_unisoc.xml",
@@ -221,7 +221,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "manifest_vendor.xiaomi.hardware.mtdservice",
+    name: "vintf_manifest_vendor.xiaomi.hardware.mtdservice",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml",
     sub_dir: "vintf/manifest",
     filename: "manifest_vendor.xiaomi.hardware.mtdservice.xml",
@@ -230,7 +230,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "network-default",
+    name: "vintf_network-default",
     src: "proprietary/vendor/etc/vintf/manifest/network-default.xml",
     sub_dir: "vintf/manifest",
     filename: "network-default.xml",
@@ -239,7 +239,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "power.stats-default",
+    name: "vintf_power.stats-default",
     src: "proprietary/vendor/etc/vintf/manifest/power.stats-default.xml",
     sub_dir: "vintf/manifest",
     filename: "power.stats-default.xml",
@@ -248,7 +248,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "soter_default",
+    name: "vintf_soter_default",
     src: "proprietary/vendor/etc/vintf/manifest/soter_default.xml",
     sub_dir: "vintf/manifest",
     filename: "soter_default.xml",
@@ -257,7 +257,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "trusty-default",
+    name: "vintf_trusty-default",
     src: "proprietary/vendor/etc/vintf/manifest/trusty-default.xml",
     sub_dir: "vintf/manifest",
     filename: "trusty-default.xml",
@@ -266,7 +266,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "tui-default",
+    name: "vintf_tui-default",
     src: "proprietary/vendor/etc/vintf/manifest/tui-default.xml",
     sub_dir: "vintf/manifest",
     filename: "tui-default.xml",
@@ -275,7 +275,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "unionpnp_service-default",
+    name: "vintf_unionpnp_service-default",
     src: "proprietary/vendor/etc/vintf/manifest/unionpnp_service-default.xml",
     sub_dir: "vintf/manifest",
     filename: "unionpnp_service-default.xml",
@@ -284,7 +284,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor-fingerprintmmi-default",
+    name: "vintf_vendor-fingerprintmmi-default",
     src: "proprietary/vendor/etc/vintf/manifest/vendor-fingerprintmmi-default.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor-fingerprintmmi-default.xml",
@@ -293,7 +293,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor-power-default",
+    name: "vintf_vendor-power-default",
     src: "proprietary/vendor/etc/vintf/manifest/vendor-power-default.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor-power-default.xml",
@@ -302,7 +302,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor-tool-default",
+    name: "vintf_vendor-tool-default",
     src: "proprietary/vendor/etc/vintf/manifest/vendor-tool-default.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor-tool-default.xml",
@@ -311,7 +311,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.sprd.gnss-default",
+    name: "vintf_vendor.sprd.gnss-default",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.gnss-default.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.sprd.gnss-default.xml",
@@ -320,7 +320,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.sprd.hardware.boot@1.2",
+    name: "vintf_vendor.sprd.hardware.boot@1.2",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.sprd.hardware.boot@1.2.xml",
@@ -329,7 +329,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.xiaomi.hardware.micharge@1.0",
+    name: "vintf_vendor.xiaomi.hardware.micharge@1.0",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.xiaomi.hardware.micharge@1.0.xml",
@@ -338,7 +338,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.xiaomi.hardware.misys@1.0",
+    name: "vintf_vendor.xiaomi.hardware.misys@1.0",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.xiaomi.hardware.misys@1.0.xml",
@@ -347,7 +347,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.xiaomi.hardware.misys@2.0",
+    name: "vintf_vendor.xiaomi.hardware.misys@2.0",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.xiaomi.hardware.misys@2.0.xml",
@@ -356,7 +356,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.xiaomi.hardware.misys@3.0",
+    name: "vintf_vendor.xiaomi.hardware.misys@3.0",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.xiaomi.hardware.misys@3.0.xml",
@@ -365,7 +365,7 @@ prebuilt_etc {
 
 // a VINTF fragment, it may not be copied
 prebuilt_etc {
-    name: "vendor.xiaomi.hardware.misys@4.0",
+    name: "vintf_vendor.xiaomi.hardware.misys@4.0",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml",
     sub_dir: "vintf/manifest",
     filename: "vendor.xiaomi.hardware.misys@4.0.xml",
@@ -374,7 +374,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "AospWifiOverlay_Marlin3",
+    name: "overlay_AospWifiOverlay_Marlin3",
     src: "proprietary/vendor/overlay/AospWifiOverlay_Marlin3.apk",
     sub_dir: "overlay",
     filename: "AospWifiOverlay_Marlin3.apk",
@@ -383,7 +383,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "AospWifiOverlay_Marlin3_Mainline",
+    name: "overlay_AospWifiOverlay_Marlin3_Mainline",
     src: "proprietary/vendor/overlay/AospWifiOverlay_Marlin3_Mainline.apk",
     sub_dir: "overlay",
     filename: "AospWifiOverlay_Marlin3_Mainline.apk",
@@ -392,7 +392,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "MultiuserOverlays",
+    name: "overlay_MultiuserOverlays",
     src: "proprietary/vendor/overlay/MultiuserOverlays.apk",
     sub_dir: "overlay",
     filename: "MultiuserOverlays.apk",
@@ -401,7 +401,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "NetworkStackOverlayGo",
+    name: "overlay_NetworkStackOverlayGo",
     src: "proprietary/vendor/overlay/NetworkStackOverlayGo.apk",
     sub_dir: "overlay",
     filename: "NetworkStackOverlayGo.apk",
@@ -410,7 +410,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "NetworkStackOverlayGsi",
+    name: "overlay_NetworkStackOverlayGsi",
     src: "proprietary/vendor/overlay/NetworkStackOverlayGsi.apk",
     sub_dir: "overlay",
     filename: "NetworkStackOverlayGsi.apk",
@@ -419,7 +419,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "SettingsProviderOverlay",
+    name: "overlay_SettingsProviderOverlay",
     src: "proprietary/vendor/overlay/SettingsProviderOverlay.apk",
     sub_dir: "overlay",
     filename: "SettingsProviderOverlay.apk",
@@ -428,7 +428,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "TetheringConfigOverlayGo",
+    name: "overlay_TetheringConfigOverlayGo",
     src: "proprietary/vendor/overlay/TetheringConfigOverlayGo.apk",
     sub_dir: "overlay",
     filename: "TetheringConfigOverlayGo.apk",
@@ -437,7 +437,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "TetheringConfigOverlayGsi",
+    name: "overlay_TetheringConfigOverlayGsi",
     src: "proprietary/vendor/overlay/TetheringConfigOverlayGsi.apk",
     sub_dir: "overlay",
     filename: "TetheringConfigOverlayGsi.apk",
@@ -446,7 +446,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "UnisocConnectivityOverlayGo",
+    name: "overlay_UnisocConnectivityOverlayGo",
     src: "proprietary/vendor/overlay/UnisocConnectivityOverlayGo.apk",
     sub_dir: "overlay",
     filename: "UnisocConnectivityOverlayGo.apk",
@@ -455,7 +455,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "UnisocConnectivityOverlayGsi",
+    name: "overlay_UnisocConnectivityOverlayGsi",
     src: "proprietary/vendor/overlay/UnisocConnectivityOverlayGsi.apk",
     sub_dir: "overlay",
     filename: "UnisocConnectivityOverlayGsi.apk",
@@ -464,7 +464,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_colordisplay",
+    name: "overlay_unisoc_overlay_colordisplay",
     src: "proprietary/vendor/overlay/unisoc_overlay_colordisplay.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_colordisplay.apk",
@@ -473,7 +473,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core",
+    name: "overlay_unisoc_overlay_core",
     src: "proprietary/vendor/overlay/unisoc_overlay_core.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core.apk",
@@ -482,7 +482,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core_go",
+    name: "overlay_unisoc_overlay_core_go",
     src: "proprietary/vendor/overlay/unisoc_overlay_core_go.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_go.apk",
@@ -491,7 +491,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core_navbar",
+    name: "overlay_unisoc_overlay_core_navbar",
     src: "proprietary/vendor/overlay/unisoc_overlay_core_navbar.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_navbar.apk",
@@ -500,7 +500,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core_wifi_display",
+    name: "overlay_unisoc_overlay_core_wifi_display",
     src: "proprietary/vendor/overlay/unisoc_overlay_core_wifi_display.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_wifi_display.apk",
@@ -509,7 +509,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_display_doze",
+    name: "overlay_unisoc_overlay_display_doze",
     src: "proprietary/vendor/overlay/unisoc_overlay_display_doze.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_display_doze.apk",
@@ -518,7 +518,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_display_vrr",
+    name: "overlay_unisoc_overlay_display_vrr",
     src: "proprietary/vendor/overlay/unisoc_overlay_display_vrr.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_display_vrr.apk",
@@ -527,7 +527,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_phone",
+    name: "overlay_unisoc_overlay_phone",
     src: "proprietary/vendor/overlay/unisoc_overlay_phone.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_phone.apk",
@@ -536,7 +536,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_phone_core",
+    name: "overlay_unisoc_overlay_phone_core",
     src: "proprietary/vendor/overlay/unisoc_overlay_phone_core.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_phone_core.apk",
@@ -545,7 +545,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_phone_hac",
+    name: "overlay_unisoc_overlay_phone_hac",
     src: "proprietary/vendor/overlay/unisoc_overlay_phone_hac.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_phone_hac.apk",
@@ -554,7 +554,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_power_cpuT606",
+    name: "overlay_unisoc_overlay_power_cpuT606",
     src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT606.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_power_cpuT606.apk",
@@ -563,7 +563,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_power_cpuT615",
+    name: "overlay_unisoc_overlay_power_cpuT615",
     src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT615.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_power_cpuT615.apk",
@@ -572,7 +572,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_power_cpuT616",
+    name: "overlay_unisoc_overlay_power_cpuT616",
     src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT616.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_power_cpuT616.apk",
@@ -581,7 +581,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_power_qogirl6",
+    name: "overlay_unisoc_overlay_power_qogirl6",
     src: "proprietary/vendor/overlay/unisoc_overlay_power_qogirl6.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_power_qogirl6.apk",
@@ -590,7 +590,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_res_overlay_colordisplay",
+    name: "overlay_unisoc_res_overlay_colordisplay",
     src: "proprietary/vendor/overlay/unisoc_res_overlay_colordisplay.apk",
     sub_dir: "overlay",
     filename: "unisoc_res_overlay_colordisplay.apk",
@@ -599,7 +599,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_res_overlay_power_qogirl6",
+    name: "overlay_unisoc_res_overlay_power_qogirl6",
     src: "proprietary/vendor/overlay/unisoc_res_overlay_power_qogirl6.apk",
     sub_dir: "overlay",
     filename: "unisoc_res_overlay_power_qogirl6.apk",
@@ -608,7 +608,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "AospBtOverlay",
+    name: "overlay_AospBtOverlay",
     src: "proprietary/vendor/overlay/AospBtOverlay/AospBtOverlay.apk",
     sub_dir: "overlay",
     filename: "AospBtOverlay.apk",
@@ -617,7 +617,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "AospBtOverlay_Qogirl6",
+    name: "overlay_AospBtOverlay_Qogirl6",
     src: "proprietary/vendor/overlay/AospBtOverlay_Qogirl6/AospBtOverlay_Qogirl6.apk",
     sub_dir: "overlay",
     filename: "AospBtOverlay_Qogirl6.apk",
@@ -626,7 +626,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "UniWifiOverlay_Marlin3",
+    name: "overlay_UniWifiOverlay_Marlin3",
     src: "proprietary/vendor/overlay/UniWifiOverlay_Marlin3/UniWifiOverlay_Marlin3.apk",
     sub_dir: "overlay",
     filename: "UniWifiOverlay_Marlin3.apk",
@@ -635,7 +635,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core_max_cached_processed_16",
+    name: "overlay_unisoc_overlay_core_max_cached_processed_16",
     src: "proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_16.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_max_cached_processed_16.apk",
@@ -644,7 +644,7 @@ prebuilt_etc {
 
 // a runtime overlay, a prebuilt apk may not be copied
 prebuilt_etc {
-    name: "unisoc_overlay_core_pinner_service_qogirl6",
+    name: "overlay_unisoc_overlay_core_pinner_service_qogirl6",
     src: "proprietary/odm/overlay/unisoc_overlay_core_pinner_service_qogirl6.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_pinner_service_qogirl6.apk",
