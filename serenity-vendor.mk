@@ -693,8 +693,6 @@ PRODUCT_COPY_FILES += \
     proprietary/odm/logo/timewatermark/time_vert_152x76_bth.rgba:odm/logo/timewatermark/time_vert_152x76_bth.rgba \
     proprietary/odm/logo/timewatermark/time_vert_152x76_cth.rgba:odm/logo/timewatermark/time_vert_152x76_cth.rgba \
     proprietary/odm/logo/timewatermark/time_vert_152x76_dth.rgba:odm/logo/timewatermark/time_vert_152x76_dth.rgba \
-    proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_16.apk:odm/overlay/unisoc_overlay_core_max_cached_processed_16.apk \
-    proprietary/odm/overlay/unisoc_overlay_core_pinner_service_qogirl6.apk:odm/overlay/unisoc_overlay_core_pinner_service_qogirl6.apk \
     proprietary/vendor/bin/boardid_bin:vendor/bin/boardid_bin \
     proprietary/vendor/bin/boringssl_self_test32:vendor/bin/boringssl_self_test32 \
     proprietary/vendor/bin/boringssl_self_test64:vendor/bin/boringssl_self_test64 \
@@ -10813,21 +10811,38 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
     proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
     proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so \
-    proprietary/vendor/overlay/AospBtOverlay_Qogirl6/AospBtOverlay_Qogirl6.apk:vendor/overlay/AospBtOverlay_Qogirl6/AospBtOverlay_Qogirl6.apk \
-    proprietary/vendor/overlay/AospWifiOverlay_Marlin3.apk:vendor/overlay/AospWifiOverlay_Marlin3.apk \
-    proprietary/vendor/overlay/MultiuserOverlays.apk:vendor/overlay/MultiuserOverlays.apk \
-    proprietary/vendor/overlay/NetworkStackOverlayGsi.apk:vendor/overlay/NetworkStackOverlayGsi.apk \
-    proprietary/vendor/overlay/SettingsProviderOverlay.apk:vendor/overlay/SettingsProviderOverlay.apk \
-    proprietary/vendor/overlay/TetheringConfigOverlayGsi.apk:vendor/overlay/TetheringConfigOverlayGsi.apk \
-    proprietary/vendor/overlay/UnisocConnectivityOverlayGo.apk:vendor/overlay/UnisocConnectivityOverlayGo.apk \
-    proprietary/vendor/overlay/unisoc_overlay_colordisplay.apk:vendor/overlay/unisoc_overlay_colordisplay.apk \
-    proprietary/vendor/overlay/unisoc_overlay_core.apk:vendor/overlay/unisoc_overlay_core.apk \
-    proprietary/vendor/overlay/unisoc_overlay_core_navbar.apk:vendor/overlay/unisoc_overlay_core_navbar.apk \
-    proprietary/vendor/overlay/unisoc_overlay_core_wifi_display.apk:vendor/overlay/unisoc_overlay_core_wifi_display.apk \
-    proprietary/vendor/overlay/unisoc_overlay_display_doze.apk:vendor/overlay/unisoc_overlay_display_doze.apk \
-    proprietary/vendor/overlay/unisoc_overlay_display_vrr.apk:vendor/overlay/unisoc_overlay_display_vrr.apk \
-    proprietary/vendor/overlay/unisoc_overlay_phone.apk:vendor/overlay/unisoc_overlay_phone.apk \
-    proprietary/vendor/overlay/unisoc_overlay_phone_core.apk:vendor/overlay/unisoc_overlay_phone_core.apk \
-    proprietary/vendor/overlay/unisoc_overlay_phone_hac.apk:vendor/overlay/unisoc_overlay_phone_hac.apk \
-    proprietary/vendor/overlay/unisoc_overlay_power_qogirl6.apk:vendor/overlay/unisoc_overlay_power_qogirl6.apk \
 
+
+# the prebuilt overlays, they are modules and not copies
+PRODUCT_PACKAGES += \
+    AospWifiOverlay_Marlin3 \
+    AospWifiOverlay_Marlin3_Mainline \
+    MultiuserOverlays \
+    NetworkStackOverlayGo \
+    NetworkStackOverlayGsi \
+    SettingsProviderOverlay \
+    TetheringConfigOverlayGo \
+    TetheringConfigOverlayGsi \
+    UnisocConnectivityOverlayGo \
+    UnisocConnectivityOverlayGsi \
+    unisoc_overlay_colordisplay \
+    unisoc_overlay_core \
+    unisoc_overlay_core_go \
+    unisoc_overlay_core_navbar \
+    unisoc_overlay_core_wifi_display \
+    unisoc_overlay_display_doze \
+    unisoc_overlay_display_vrr \
+    unisoc_overlay_phone \
+    unisoc_overlay_phone_core \
+    unisoc_overlay_phone_hac \
+    unisoc_overlay_power_cpuT606 \
+    unisoc_overlay_power_cpuT615 \
+    unisoc_overlay_power_cpuT616 \
+    unisoc_overlay_power_qogirl6 \
+    unisoc_res_overlay_colordisplay \
+    unisoc_res_overlay_power_qogirl6 \
+    AospBtOverlay \
+    AospBtOverlay_Qogirl6 \
+    UniWifiOverlay_Marlin3 \
+    unisoc_overlay_core_max_cached_processed_16 \
+    unisoc_overlay_core_pinner_service_qogirl6 \

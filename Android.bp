@@ -3,6 +3,440 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "AospWifiOverlay_Marlin3",
+    src: "proprietary/vendor/overlay/AospWifiOverlay_Marlin3.apk",
+    sub_dir: "overlay",
+    filename: "AospWifiOverlay_Marlin3.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "AospWifiOverlay_Marlin3_Mainline",
+    src: "proprietary/vendor/overlay/AospWifiOverlay_Marlin3_Mainline.apk",
+    sub_dir: "overlay",
+    filename: "AospWifiOverlay_Marlin3_Mainline.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "MultiuserOverlays",
+    src: "proprietary/vendor/overlay/MultiuserOverlays.apk",
+    sub_dir: "overlay",
+    filename: "MultiuserOverlays.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "NetworkStackOverlayGo",
+    src: "proprietary/vendor/overlay/NetworkStackOverlayGo.apk",
+    sub_dir: "overlay",
+    filename: "NetworkStackOverlayGo.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "NetworkStackOverlayGsi",
+    src: "proprietary/vendor/overlay/NetworkStackOverlayGsi.apk",
+    sub_dir: "overlay",
+    filename: "NetworkStackOverlayGsi.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "SettingsProviderOverlay",
+    src: "proprietary/vendor/overlay/SettingsProviderOverlay.apk",
+    sub_dir: "overlay",
+    filename: "SettingsProviderOverlay.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "TetheringConfigOverlayGo",
+    src: "proprietary/vendor/overlay/TetheringConfigOverlayGo.apk",
+    sub_dir: "overlay",
+    filename: "TetheringConfigOverlayGo.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "TetheringConfigOverlayGsi",
+    src: "proprietary/vendor/overlay/TetheringConfigOverlayGsi.apk",
+    sub_dir: "overlay",
+    filename: "TetheringConfigOverlayGsi.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "UnisocConnectivityOverlayGo",
+    src: "proprietary/vendor/overlay/UnisocConnectivityOverlayGo.apk",
+    sub_dir: "overlay",
+    filename: "UnisocConnectivityOverlayGo.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "UnisocConnectivityOverlayGsi",
+    src: "proprietary/vendor/overlay/UnisocConnectivityOverlayGsi.apk",
+    sub_dir: "overlay",
+    filename: "UnisocConnectivityOverlayGsi.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_colordisplay",
+    src: "proprietary/vendor/overlay/unisoc_overlay_colordisplay.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_colordisplay.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core",
+    src: "proprietary/vendor/overlay/unisoc_overlay_core.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core_go",
+    src: "proprietary/vendor/overlay/unisoc_overlay_core_go.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core_go.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core_navbar",
+    src: "proprietary/vendor/overlay/unisoc_overlay_core_navbar.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core_navbar.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core_wifi_display",
+    src: "proprietary/vendor/overlay/unisoc_overlay_core_wifi_display.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core_wifi_display.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_display_doze",
+    src: "proprietary/vendor/overlay/unisoc_overlay_display_doze.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_display_doze.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_display_vrr",
+    src: "proprietary/vendor/overlay/unisoc_overlay_display_vrr.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_display_vrr.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_phone",
+    src: "proprietary/vendor/overlay/unisoc_overlay_phone.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_phone.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_phone_core",
+    src: "proprietary/vendor/overlay/unisoc_overlay_phone_core.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_phone_core.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_phone_hac",
+    src: "proprietary/vendor/overlay/unisoc_overlay_phone_hac.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_phone_hac.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_power_cpuT606",
+    src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT606.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_power_cpuT606.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_power_cpuT615",
+    src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT615.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_power_cpuT615.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_power_cpuT616",
+    src: "proprietary/vendor/overlay/unisoc_overlay_power_cpuT616.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_power_cpuT616.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_power_qogirl6",
+    src: "proprietary/vendor/overlay/unisoc_overlay_power_qogirl6.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_power_qogirl6.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_res_overlay_colordisplay",
+    src: "proprietary/vendor/overlay/unisoc_res_overlay_colordisplay.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_res_overlay_colordisplay.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_res_overlay_power_qogirl6",
+    src: "proprietary/vendor/overlay/unisoc_res_overlay_power_qogirl6.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_res_overlay_power_qogirl6.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "AospBtOverlay",
+    src: "proprietary/vendor/overlay/AospBtOverlay/AospBtOverlay.apk",
+    sub_dir: "overlay",
+    filename: "AospBtOverlay.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "AospBtOverlay_Qogirl6",
+    src: "proprietary/vendor/overlay/AospBtOverlay_Qogirl6/AospBtOverlay_Qogirl6.apk",
+    sub_dir: "overlay",
+    filename: "AospBtOverlay_Qogirl6.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "UniWifiOverlay_Marlin3",
+    src: "proprietary/vendor/overlay/UniWifiOverlay_Marlin3/UniWifiOverlay_Marlin3.apk",
+    sub_dir: "overlay",
+    filename: "UniWifiOverlay_Marlin3.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    vendor: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core_max_cached_processed_16",
+    src: "proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_16.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core_max_cached_processed_16.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    odm: {
+        enabled: true,
+    },
+}
+
+// a runtime overlay, a prebuilt apk may not be copied
+prebuilt_etc {
+    name: "unisoc_overlay_core_pinner_service_qogirl6",
+    src: "proprietary/odm/overlay/unisoc_overlay_core_pinner_service_qogirl6.apk",
+    sub_dir: "overlay",
+    filename: "unisoc_overlay_core_pinner_service_qogirl6.apk",
+    prebuilt_strip: {
+        strip: false,
+    },
+    odm: {
+        enabled: true,
+    },
+}
+
 install_symlink {
     name: "symlink_odm_lib_libsprddrepro_so_libsprddrepro",
     soc_specific: true,
