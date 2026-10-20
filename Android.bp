@@ -110,8 +110,6 @@ install_symlink {
     symlink_target: "/vendor/lib64/libGLES_mali.so",
 }
 
-// The toybox [ builtin. On lineage-24.0 the device tree declares this, so it
-// lives there and not here; this repo only carries the blob symlinks
 install_symlink {
     name: "symlink_vendor_odm_odm",
     soc_specific: true,
