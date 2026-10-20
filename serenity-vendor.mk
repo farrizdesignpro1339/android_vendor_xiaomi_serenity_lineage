@@ -1096,47 +1096,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/etc/ueventd.rc:vendor/etc/ueventd.rc \
     proprietary/vendor/etc/uniber.conf:vendor/etc/uniber.conf \
     proprietary/vendor/etc/usb_audio_policy_configuration.xml:vendor/etc/usb_audio_policy_configuration.xml \
-    proprietary/vendor/etc/vintf/manifest/ai_engine-default.xml:vendor/etc/vintf/manifest/ai_engine-default.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.face-v2.xml:vendor/etc/vintf/manifest/android.hardware.biometrics.face-v2.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml:vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:vendor/etc/vintf/manifest/android.hardware.health-service.example.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml:vendor/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.unisoc.xml:vendor/etc/vintf/manifest/android.hardware.usb-service.unisoc.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:vendor/etc/vintf/manifest/bluetooth_audio.xml \
-    proprietary/vendor/etc/vintf/manifest/combinedservice.xml:vendor/etc/vintf/manifest/combinedservice.xml \
-    proprietary/vendor/etc/vintf/manifest/cplog_svc-default.xml:vendor/etc/vintf/manifest/cplog_svc-default.xml \
-    proprietary/vendor/etc/vintf/manifest/enhance-default.xml:vendor/etc/vintf/manifest/enhance-default.xml \
-    proprietary/vendor/etc/vintf/manifest/fingerprint-default.xml:vendor/etc/vintf/manifest/fingerprint-default.xml \
-    proprietary/vendor/etc/vintf/manifest/hdcp-default.xml:vendor/etc/vintf/manifest/hdcp-default.xml \
-    proprietary/vendor/etc/vintf/manifest/identity-default.xml:vendor/etc/vintf/manifest/identity-default.xml \
-    proprietary/vendor/etc/vintf/manifest/ifaa-default.xml:vendor/etc/vintf/manifest/ifaa-default.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml:vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_dualsim.xml:vendor/etc/vintf/manifest/manifest_dualsim.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_face_default.xml:vendor/etc/vintf/manifest/manifest_face_default.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml \
-    proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml:vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    proprietary/vendor/etc/vintf/manifest/network-default.xml:vendor/etc/vintf/manifest/network-default.xml \
-    proprietary/vendor/etc/vintf/manifest/power.stats-default.xml:vendor/etc/vintf/manifest/power.stats-default.xml \
-    proprietary/vendor/etc/vintf/manifest/soter_default.xml:vendor/etc/vintf/manifest/soter_default.xml \
-    proprietary/vendor/etc/vintf/manifest/trusty-default.xml:vendor/etc/vintf/manifest/trusty-default.xml \
-    proprietary/vendor/etc/vintf/manifest/tui-default.xml:vendor/etc/vintf/manifest/tui-default.xml \
-    proprietary/vendor/etc/vintf/manifest/unionpnp_service-default.xml:vendor/etc/vintf/manifest/unionpnp_service-default.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor-fingerprintmmi-default.xml:vendor/etc/vintf/manifest/vendor-fingerprintmmi-default.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor-power-default.xml:vendor/etc/vintf/manifest/vendor-power-default.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor-tool-default.xml:vendor/etc/vintf/manifest/vendor-tool-default.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.sprd.gnss-default.xml:vendor/etc/vintf/manifest/vendor.sprd.gnss-default.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml:vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml \
-    proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml \
     proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:vendor/etc/wifi/p2p_supplicant_overlay.conf \
     proprietary/vendor/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml:vendor/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml \
     proprietary/vendor/etc/wifi/wpa_supplicant.conf:vendor/etc/wifi/wpa_supplicant.conf \
@@ -10812,6 +10771,50 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
     proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so \
 
+
+# the VINTF fragments, they are modules and not copies
+PRODUCT_PACKAGES += \
+    ai_engine-default \
+    android.hardware.biometrics.face-v2 \
+    android.hardware.cas@1.2-service-lazy \
+    android.hardware.drm-service.clearkey \
+    android.hardware.gatekeeper@1.0-service.trusty \
+    android.hardware.health-service.example \
+    android.hardware.security.keymint@2.0-unisoc.service.trusty \
+    android.hardware.sensors-multihal \
+    android.hardware.usb-service.unisoc \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi.supplicant \
+    android.hardware.wifi@1.0-service \
+    bluetooth_audio \
+    combinedservice \
+    cplog_svc-default \
+    enhance-default \
+    fingerprint-default \
+    hdcp-default \
+    identity-default \
+    ifaa-default \
+    manifest_android.hardware.drm-service.widevine \
+    manifest_dualsim \
+    manifest_face_default \
+    manifest_media_c2_V1_1_unisoc \
+    manifest_vendor.xiaomi.hardware.mtdservice \
+    network-default \
+    power.stats-default \
+    soter_default \
+    trusty-default \
+    tui-default \
+    unionpnp_service-default \
+    vendor-fingerprintmmi-default \
+    vendor-power-default \
+    vendor-tool-default \
+    vendor.sprd.gnss-default \
+    vendor.sprd.hardware.boot@1.2 \
+    vendor.xiaomi.hardware.micharge@1.0 \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.misys@4.0 \
 
 # the prebuilt overlays, they are modules and not copies
 PRODUCT_PACKAGES += \
