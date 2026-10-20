@@ -344,7 +344,6 @@ PRODUCT_COPY_FILES += \
     proprietary/odm/etc/thermal.conf:odm/etc/thermal.conf \
     proprietary/odm/etc/thm_thresh_cfg.xml:odm/etc/thm_thresh_cfg.xml \
     proprietary/odm/etc/ueventd.rc:odm/etc/ueventd.rc \
-    proprietary/odm/etc/vintf/manifest.xml:odm/etc/vintf/manifest.xml \
     proprietary/odm/etc/zoom_config.json:odm/etc/zoom_config.json \
     proprietary/odm/firmware/4e4ad239-24a4-42ac-941e-ec18e072750c.elf:odm/firmware/4e4ad239-24a4-42ac-941e-ec18e072750c.elf \
     proprietary/odm/firmware/86f623f6-a299-4dfd-b560-ffd3e5a62c29.elf:odm/firmware/86f623f6-a299-4dfd-b560-ffd3e5a62c29.elf \
@@ -1099,8 +1098,6 @@ PRODUCT_COPY_FILES += \
     proprietary/vendor/etc/ueventd.rc:vendor/etc/ueventd.rc \
     proprietary/vendor/etc/uniber.conf:vendor/etc/uniber.conf \
     proprietary/vendor/etc/usb_audio_policy_configuration.xml:vendor/etc/usb_audio_policy_configuration.xml \
-    proprietary/vendor/etc/vintf/compatibility_matrix.xml:vendor/etc/vintf/compatibility_matrix.xml \
-    proprietary/vendor/etc/vintf/manifest.xml:vendor/etc/vintf/manifest.xml \
     proprietary/vendor/etc/vintf/manifest/ai_engine-default.xml:vendor/etc/vintf/manifest/ai_engine-default.xml \
     proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.face-v2.xml:vendor/etc/vintf/manifest/android.hardware.biometrics.face-v2.xml \
     proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
