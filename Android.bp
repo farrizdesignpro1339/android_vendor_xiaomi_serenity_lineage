@@ -3,8 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-soong_namespace {}
-
 install_symlink {
     name: "symlink_odm_lib_libsprddrepro_so_libsprddrepro",
     soc_specific: true,
