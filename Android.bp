@@ -270,7 +270,7 @@ prebuilt_etc {
     src: "proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_16.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_max_cached_processed_16.apk",
-    odm: true,
+    vendor: true,
 }
 
 // a runtime overlay, a prebuilt apk may not be copied
@@ -279,7 +279,7 @@ prebuilt_etc {
     src: "proprietary/odm/overlay/unisoc_overlay_core_pinner_service_qogirl6.apk",
     sub_dir: "overlay",
     filename: "unisoc_overlay_core_pinner_service_qogirl6.apk",
-    odm: true,
+    vendor: true,
 }
 
 install_symlink {
